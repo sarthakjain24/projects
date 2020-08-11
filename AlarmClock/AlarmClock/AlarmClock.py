@@ -26,15 +26,14 @@ if(amPm.lower() == "pm"):
 
         
 def printTime():
-    if(alarmHr < 10):
+    # If the alarmHr and the alarmMin are both less than 10, then it adds a 0 in front of them
+    if(alarmHr < 10 and alarmMin < 10):
+        print("Alarm went off at 0" + str(alarmHr) + ":0" + str(alarmMin))
+    elif(alarmHr < 10):
         print("Alarm went off at 0" + str(alarmHr) + ":" + str(alarmMin))
     # If the alarmMin is less than 10, then it adds a 0 in front of it
     elif(alarmMin < 10):    
         print("Alarm went off at " + str(alarmHr) + ":0" + str(alarmMin))
-    # If the alarmHr and the alarmMin are both less than 10, then it adds a 0 in front of them
-    elif(alarmHr < 10 and alarmMin < 10):
-        print("Alarm went off at 0" + str(alarmHr) + ":0" + str(alarmMin))
-    # break 
 
 
 # Runs Infinitely
@@ -44,11 +43,10 @@ while(True):
     while(alarmHr == datetime.datetime.now().hour and alarmMin == datetime.datetime.now().minute):
         print("Wake up")
        
-        # Plays the sound of an AlarmClock
-        playsound('/Songs/alarmClock.mp3')
-        
-        # Prints the time at which the alarm went off
+        # Prints the time
         printTime()
+        # Plays the sound of an AlarmClock
+        playsound('/Users/jains/git/sideWork/AlarmClock/AlarmClock.mp3', block=False)
         
         # If the user enters Q, then it stops the alarm from going off
         choice = input("To quit enter Q")
@@ -58,10 +56,9 @@ while(True):
             print()
             
             print("Quitting the Application")
-            
-    #         break
+            # Prints the time at which the alarm went off
+            printTime()
             sys.exit(0)
-            
             break
         else:
             continue
