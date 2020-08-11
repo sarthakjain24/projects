@@ -23,7 +23,9 @@ if(amPm.lower() == "am"):
 if(amPm.lower() == "pm"):
     if(alarmHr != 12):
         alarmHr = (alarmHr + 12) % 24
-
+'''
+Method that prints when the alarm will go off
+'''
         
 def printTime():
     # If the alarmHr and the alarmMin are both less than 10, then it adds a 0 in front of them
@@ -34,6 +36,9 @@ def printTime():
     # If the alarmMin is less than 10, then it adds a 0 in front of it
     elif(alarmMin < 10):    
         print("Alarm went off at " + str(alarmHr) + ":0" + str(alarmMin))
+    # Otherwise prints the time the alarm went off
+    else:
+        print("Alarm went off at " + str(alarmHr) + ":" + str(alarmMin))
 
 
 # Runs Infinitely
@@ -43,8 +48,9 @@ while(True):
     while(alarmHr == datetime.datetime.now().hour and alarmMin == datetime.datetime.now().minute):
         print("Wake up")
        
-        # Prints the time
+        # Prints the time at which the alarm went off
         printTime()
+        
         # Plays the sound of an AlarmClock
         playsound('/Users/jains/git/sideWork/AlarmClock/AlarmClock.mp3', block=False)
         
@@ -56,9 +62,10 @@ while(True):
             print()
             
             print("Quitting the Application")
-            # Prints the time at which the alarm went off
             printTime()
             sys.exit(0)
             break
-        else:
-            continue
+        
+        # Plays the sound of an AlarmClock
+        playsound('/Users/jains/git/sideWork/AlarmClock/AlarmClock.mp3', block=False)
+
