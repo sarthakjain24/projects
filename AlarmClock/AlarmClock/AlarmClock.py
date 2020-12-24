@@ -2,7 +2,7 @@ import datetime
 import sys
 from playsound import playsound
 '''
-An Alarm Clock
+An Alarm Clock program
 
 @author: Sarthak Jain
 '''
