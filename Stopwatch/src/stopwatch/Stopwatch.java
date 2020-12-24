@@ -252,5 +252,4 @@ public class Stopwatch extends JFrame implements ActionListener {
 			txtMilliseconds.setText(" : 0000");
 		}
 	}
-
 }
