@@ -50,5 +50,3 @@ while player == False:
     player = False
     # Gets another option for the computer
     computer = options[randint(0, 2)]
-
-        
