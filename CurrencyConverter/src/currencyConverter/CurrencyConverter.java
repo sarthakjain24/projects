@@ -42,7 +42,6 @@ public class CurrencyConverter extends JFrame implements ActionListener {
 	public static void main(String[] args) {
 		// Runs the CurrencyConverter
 		SwingUtilities.invokeLater(() -> new CurrencyConverter());
-
 	}
 
 	/**
