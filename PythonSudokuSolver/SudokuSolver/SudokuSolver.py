@@ -2,7 +2,6 @@
 Method that displays the arr in a 2D grid layout
 '''
 
-
 def displayGrid(arr):
     for row in arr:
         for col in row:
