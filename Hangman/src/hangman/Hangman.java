@@ -32,6 +32,7 @@ public class Hangman {
 	// An ArrayList of words that could be randomly chosen
 	private ArrayList<String> dictionary;
 
+	
 	/**
 	 * The constructor of the game
 	 */
