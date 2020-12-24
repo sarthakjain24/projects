@@ -27,6 +27,7 @@ def insertionSort(arr):
         # Sets the value at index j + 1 to the key
         arr[j + 1] = key
 
+        
 '''
 Runs the main method where it sorts the array and prints out the sorted array
 '''
