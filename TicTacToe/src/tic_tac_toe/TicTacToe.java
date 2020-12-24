@@ -236,6 +236,7 @@ public class TicTacToe implements ActionListener {
 		return checkBoard(0, 0, 0, 1) || checkBoard(1, 0, 0, 1) || checkBoard(2, 0, 0, 1) || checkBoard(0, 0, 1, 0)
 				|| checkBoard(0, 1, 1, 0) || checkBoard(0, 2, 1, 0) || checkBoard(0, 0, 1, 1)
 				|| checkBoard(0, 2, 1, -1);
+	
 	}
 
 	/**
@@ -285,7 +286,7 @@ public class TicTacToe implements ActionListener {
 				if (gameOver == false) {
 					checkTie();
 				}
-
+				
 				// Increments the moves by 1
 				moves++;
 			}
