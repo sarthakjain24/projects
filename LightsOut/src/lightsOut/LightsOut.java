@@ -678,6 +678,5 @@ public class LightsOut implements ActionListener, MouseListener
                 }
             }
         }
-
     }
 }
