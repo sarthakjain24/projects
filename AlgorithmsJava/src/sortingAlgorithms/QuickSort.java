@@ -25,7 +25,6 @@ public class QuickSort {
 	 * arrList length - 1
 	 */
 	public static <T extends Comparable<? super T>> void quickSort(T[] arr) {
-
 		// Calls the private quickSort method
 		quickSort(arr, 0, arr.length - 1);
 	}
