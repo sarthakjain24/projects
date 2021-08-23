@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "oYQUKjzBF3YTPsPo6KST4e/wLBq0OvhT8TlWwI2kiMwTvuER7tpuhIdL9u1CsFPCqWruv42RlxqIqh35dLfyqw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jains\\source\\repos\\BudgetingApp\\Budgeting\\Budgeting.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jains\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\jains\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

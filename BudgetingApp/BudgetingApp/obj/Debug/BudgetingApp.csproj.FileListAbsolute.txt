@@ -1,0 +1,10 @@
+C:\Users\jains\source\repos\BudgetingApp\BudgetingApp\bin\Debug\BudgetingApp.exe.config
+C:\Users\jains\source\repos\BudgetingApp\BudgetingApp\bin\Debug\BudgetingApp.exe
+C:\Users\jains\source\repos\BudgetingApp\BudgetingApp\bin\Debug\BudgetingApp.pdb
+C:\Users\jains\source\repos\BudgetingApp\BudgetingApp\obj\Debug\BudgetingApp.csproj.AssemblyReference.cache
+C:\Users\jains\source\repos\BudgetingApp\BudgetingApp\obj\Debug\BudgetingApp.Budgeting_Form.resources
+C:\Users\jains\source\repos\BudgetingApp\BudgetingApp\obj\Debug\BudgetingApp.Properties.Resources.resources
+C:\Users\jains\source\repos\BudgetingApp\BudgetingApp\obj\Debug\BudgetingApp.csproj.GenerateResource.cache
+C:\Users\jains\source\repos\BudgetingApp\BudgetingApp\obj\Debug\BudgetingApp.csproj.CoreCompileInputs.cache
+C:\Users\jains\source\repos\BudgetingApp\BudgetingApp\obj\Debug\BudgetingApp.exe
+C:\Users\jains\source\repos\BudgetingApp\BudgetingApp\obj\Debug\BudgetingApp.pdb
